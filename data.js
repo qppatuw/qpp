@@ -52,7 +52,7 @@ window.QPP = {
   galleryImages: [
     {
       id: 1,
-      url: "images/skog.jpg",
+      url: "skog.jpg",
       alt: "Q++ Co-Chair",
       name: "Sierra Yee",
       role: "Co-Chair (2024-present)",
@@ -60,7 +60,7 @@ window.QPP = {
     },
     {
       id: 2,
-      url: "images/rat.jpg",
+      url: "rat.jpg",
       alt: "Q++ Co-Chair",
       name: "Reese Fairchild",
       role: "Co-Chair (2024-present)",
@@ -68,7 +68,7 @@ window.QPP = {
     },
     {
       id: 3,
-      url: "images/turt.png",
+      url: "turt.png",
       alt: "Q++ Secretary",
       name: "Nellie Coates",
       role: "Secretary (2025-present)",
@@ -76,7 +76,7 @@ window.QPP = {
     },
     {
       id: 4,
-      url: "images/shark.jpg",
+      url: "shark.jpg",
       alt: "Q++ Treasurer",
       name: "Tamsyn Henke",
       role: "Treasurer (2025-present)",
@@ -84,7 +84,7 @@ window.QPP = {
     },
     {
       id: 5,
-      url: "images/bear.jpg",
+      url: "bear.jpg",
       alt: "Q++ Events Coordinator",
       name: "Ameli Graff",
       role: "Events Coordinator (2025-present)",
@@ -92,7 +92,7 @@ window.QPP = {
     },
     {
       id: 6,
-      url: "images/rx.png",
+      url: "rx.png",
       alt: "Q++ Social Media Manager",
       name: "Ray Xu",
       role: "Public Relations Officer (2025-present)",
