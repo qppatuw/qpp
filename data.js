@@ -45,7 +45,7 @@ window.QPP = {
       date: "2026-11-18",
       time: "4:00 - 6:00 PM",
       location: "CSE1 305 (Allen 3rd floor)",
-      rsvpLink: "N/A"
+      rsvpLink: ""
     }
   ],
 
