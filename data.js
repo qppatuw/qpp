@@ -3,49 +3,49 @@ window.QPP = {
   events: [
     {
       id: "1",
-      title: "Quarterly Brunch: Wild West!",
+      title: "Quarterly Brunch: SPOOOOOKY Brunch!",
       shortDescription:
-        "Join us for another awesome brunch/social! Meet new people, chat with friends, and enjoy free catering (halal & vegan options available)!",
+        "Join us for another awesome spoOoOoky brunch/social! Meet new people, chat with friends, and enjoy free catering (halal & vegan options available)! Costumes encouraged!!!",
       fullDescription:
-        "Get excited for our final catered brunch of the 2025-26 school year! Whether you're new to the Allen School or a returning member, this is the perfect opportunity to meet fellow queer and allied students in CS. Our brunches are a great opportunity to chat, eat delicious food, and make connections. All are welcome in this inclusive, supportive space - please RSVP to help us plan accordingly!",
-      date: "2026-04-17",
-      time: "10:00 AM - 1:00 PM",
+        "Get excited for our first catered brunch of the 2026-27 school year! Whether you're new to the Allen School or a returning member, this is the perfect opportunity to meet fellow queer and allied students in CS. Our brunches are a great opportunity to chat, eat delicious food, and make connections. All are welcome in this inclusive, supportive space - please RSVP to help us plan accordingly! Costumes encouraged!!!",
+      date: "2027-10-30",
+      time: "10:30 AM - 1:00 PM",
       location: "CSE1 (Allen) 691",
-      rsvpLink: "https://forms.gle/gAaJs11HcBiTW6927"
+      rsvpLink: "https://docs.google.com/forms/d/e/1FAIpQLSd_EU6KeV_t0jT8TLL7UwOQKiwnnusUf-LyRJlKOplP3oPTxw/alreadyresponded"
     },
     {
       id: "2",
-      title: "June Pride Month Celebration",
+      title: "Pumpkin Painting & Candy Night",
       shortDescription:
-        "Cap off all your hard work this quarter by joining us for a chill pride month event, where we'll enjoy treats from a local bakery, catch up with friends, and celebrate Pride Month! ",
+        "Come paint a cute pumpkin (and take it home with you!), eat some candy, chat, and reconnect or meet some new people! All Allen School Students are welcome.",
       fullDescription:
-        "Cap off all your hard work this quarter by joining us for a chill pride month event, where we'll enjoy treats from a local bakery, catch up with friends, and celebrate Pride Month! ",
-      date: "2026-06-05",
-      time: "10:00 AM - 1:00 PM",
-      location: "TBD",
-      rsvpLink: "https://forms.gle/example2"
+        "Come paint a cute pumpkin (and take it home with you!), eat some candy, chat, and reconnect or meet some new people! All Allen School Students are welcome.",      
+      date: "2026-10-27",
+      time: "5:30 - 7:30 PM",
+      location: "CSE1 Microsoft Atrium (Allen ground floor)",
+      rsvpLink: "https://docs.google.com/forms/u/2/d/e/1FAIpQLSdsqAvGXJXA215iGfpZ0rHc_LVe5fmkdgSvopbLjF34-yKHuQ/viewform?usp=header"
     },
     {
       id: "3",
-      title: "Game Night: Collab with SEA Team & other affinity orgs",
+      title: "Quarterly Brunch: Winter Quarter!",
       shortDescription:
-        "Compete in this friendly game tournament put on by several other RSOs! Prizes for winners and fun for all.",
+        "Join us for another awesome brunch/social! Meet new people, enter the plushie raffle, chat with friends, and enjoy free catering (halal & vegan options available)! Costumes encouraged!!!",
       fullDescription:
-        "Compete in this friendly game tournament put on by several other RSOs! Prizes for winners and fun for all.",
-      date: "2026-04-23",
-      time: "6:00 PM - 8:00 PM",
-      location: "Microsoft Atrium",
+        "Get excited for our second catered brunch of the 2026-27 school year! Whether you're new to the Allen School or a returning member, this is the perfect opportunity to meet fellow queer and allied students in CS. Our brunches are a great opportunity to chat, eat delicious food, and make connections. All are welcome in this inclusive, supportive space - please RSVP to help us plan accordingly!",
+      date: "TBD - check back this Winter!",
+      time: "TBD - check back this Winter!",
+      location: "TBD - check back this Winter!",
       rsvpLink: ""
     },
     {
       id: "4",
-      title: "TBD Panel (Collab with MiT)",
-      shortDescription: "More info soon!",
-      fullDescription: "More info soon!",
-      date: "Coming Soon",
-      time: "Coming Soon",
-      location: "Coming Soon",
-      rsvpLink: ""
+      title: "Kraft Craft Night",
+      shortDescription: "Come get into kraft (free mac n cheese!) and crafts (play with & fire a clay creation, paint a rubber duck, and more!) with us! All Allen School students are welcome.",
+      fullDescription: "Come get into kraft (free mac n cheese!) and crafts (play with & fire a clay creation, paint a rubber duck, and more!) with us! All Allen School students are welcome.",
+      date: "2026-11-18",
+      time: "4:00 - 6:00 PM",
+      location: "CSE1 305 (Allen 3rd floor)",
+      rsvpLink: "N/A"
     }
   ],
 
