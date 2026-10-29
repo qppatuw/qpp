@@ -88,7 +88,7 @@ window.QPP = {
       alt: "Q++ Events Coordinator",
       name: "Ameli Graff",
       role: "Events Coordinator (2025-present)",
-      bio: "bio here"
+      bio: "Hi! I'm Ameli, and I'm the events coordinator for Q++! I'm a third-year CS major minoring in Classics and Data Science. I love reading, so send me your book recs!! Come say hi at our next event!"
     },
     {
       id: 6,
