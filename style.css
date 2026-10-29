@@ -208,6 +208,22 @@ a { color: inherit; }
 .contact-about p { color: var(--gray-700); }
 .contact-about p + p { margin-top: .75rem; }
 
+/* ---------- Links (Instagram link-in-bio) ---------- */
+.links-body, .links-body main { background: var(--gray-800); }
+.links-page { max-width: 32rem; margin: 0 auto; padding: 3rem 1rem 4rem; display: grid; gap: 2rem; }
+.links-head { text-align: center; color: #fff; }
+.links-head img { width: 5rem; height: 5rem; object-fit: contain; margin: 0 auto 1rem; }
+.links-head h1 { color: var(--teal-400); font-size: 1.875rem; }
+.links-head p { color: var(--gray-300); }
+.links-label { color: var(--gray-300); font-size: .75rem; letter-spacing: .15em; text-transform: uppercase; text-align: center; margin-bottom: .75rem; }
+.links-list { display: grid; gap: .75rem; }
+/* background-color only, so an event's theme-* gradient still shows through */
+.links-btn { display: block; text-align: center; background-color: #fff; color: var(--gray-800); padding: 1rem 1.25rem; border-radius: var(--radius-lg); text-decoration: none; font-weight: 500; box-shadow: var(--shadow-md); transition: transform .15s, background-color .15s; }
+.links-btn:hover { background-color: #ccfbf1; transform: translateY(-1px); }
+.links-event span, .links-event small { display: block; }
+.links-event span { color: var(--title); }
+.links-event small { color: var(--gray-600); font-weight: 400; margin-top: .125rem; }
+
 /* ---------- Minigame ---------- */
 .game-page { padding: 4rem 1rem; }
 .game-inner { max-width: 48rem; margin: 0 auto; }

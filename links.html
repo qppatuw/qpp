@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links – uwq++</title>
+  <meta name="description" content="All Q++ links in one place: upcoming event RSVPs, Discord, mailing list, and more.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="links-body">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="container" aria-label="Main navigation">
+      <a class="logo-link" href="index.html" aria-label="Q++ Home">
+        <img src="logo.png" alt="Q++ Logo" width="48" height="48">
+      </a>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="minigame.html">Minigame</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Get Connected</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="links-page">
+      <header class="links-head">
+        <img src="logo.png" alt="Q++ Logo" width="80" height="80">
+        <h1>uwq++</h1>
+        <p>Queer &amp; allied students in the UW Allen School</p>
+      </header>
+
+      <section aria-labelledby="links-events-heading">
+        <h2 class="links-label" id="links-events-heading">Upcoming events</h2>
+        <!-- filled from data.js by main.js: upcoming dated events, RSVP link if there is one -->
+        <div class="links-list" id="links-events"></div>
+      </section>
+
+      <section aria-labelledby="links-connect-heading">
+        <h2 class="links-label" id="links-connect-heading">Get connected</h2>
+        <div class="links-list">
+          <a class="links-btn" href="https://discord.gg/aMYWwayKa" target="_blank" rel="noopener noreferrer">Join our Discord</a>
+          <a class="links-btn" href="https://mailman.cs.washington.edu/mailman/listinfo/qpp" target="_blank" rel="noopener noreferrer">Join our mailing list</a>
+          <a class="links-btn" href="mailto:qpp-officers@cs.washington.edu">Email us</a>
+        </div>
+      </section>
+
+      <section aria-labelledby="links-site-heading">
+        <h2 class="links-label" id="links-site-heading">Website</h2>
+        <div class="links-list">
+          <a class="links-btn" href="events.html">All events</a>
+          <a class="links-btn" href="index.html">About us &amp; meet the team</a>
+          <a class="links-btn" href="minigame.html">Play the minigame</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

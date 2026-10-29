@@ -66,6 +66,28 @@
     list.innerHTML = items.map(eventCard).join("");
   }
 
+  /* ---------- link-in-bio page (links.html) ---------- */
+  var linksEvents = document.getElementById("links-events");
+  if (linksEvents) {
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+    var upcoming = data.events.filter(function (e) {
+      var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(e.date);
+      return m && new Date(+m[1], +m[2] - 1, +m[3]) >= today;
+    }).sort(function (a, b) { return a.date < b.date ? -1 : 1; });
+    linksEvents.innerHTML = upcoming.length
+      ? upcoming.map(function (e) {
+          var href = e.rsvpLink || "event.html?id=" + encodeURIComponent(e.id);
+          var ext = e.rsvpLink ? ' target="_blank" rel="noopener noreferrer"' : "";
+          return (
+            '<a class="links-btn links-event ' + themeFor(e.id) + '"' + ext + ' href="' + esc(href) + '">' +
+            "<span>" + (e.rsvpLink ? "RSVP: " : "") + esc(e.title) + "</span>" +
+            "<small>" + esc(formatDate(e.date).text) + " · " + esc(e.time) + "</small></a>"
+          );
+        }).join("")
+      : '<a class="links-btn" href="events.html">No events scheduled yet – check back soon!</a>';
+  }
+
   /* ---------- event detail (event.html?id=1) ---------- */
   var root_ = document.getElementById("event-root");
   if (root_) {
